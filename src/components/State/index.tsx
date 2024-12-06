@@ -1,12 +1,23 @@
 const State = () => {
     let counter = 0;
 
-    console.log(counter);
+  
+
+    const increase = () => {
+        counter++;
+        console.log(counter);
+    };
+
+    const decrease = () => {
+        counter--;
+        console.log(counter);
+    };
+
     return (
         <div>
-            <button>+</button>
+            <button onClick={increase}>+</button>
             {counter}
-            <button>-</button>
+            <button onClick={decrease}>-</button>
         </div>
     );
 };
