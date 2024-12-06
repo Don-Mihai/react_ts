@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
