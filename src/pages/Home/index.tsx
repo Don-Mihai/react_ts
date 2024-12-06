@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Book from '../../components/Book';
 import { books as initialBooks } from '../../utils';
 import styles from './Home.module.scss';
+import State from '../../components/State';
 
 const Home = () => {
     const [books, setBooks] = useState(initialBooks);
@@ -31,6 +32,7 @@ const Home = () => {
                 })}
                 <button onClick={handleAddBook}>Добавить книгу в мозг</button>
             </div>
+            <State />
         </div>
     );
 };
