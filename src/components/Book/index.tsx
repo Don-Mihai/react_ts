@@ -1,4 +1,3 @@
-// @ts-ignore
 import styles from './Book.module.scss';
 
 export interface BookI {

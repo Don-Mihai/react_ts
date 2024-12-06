@@ -17,5 +17,5 @@
         "noEmit": true,
         "jsx": "react-jsx"
     },
-    "include": ["src", "react-app.d.ts"]
+    "include": ["src", "react-app.d.ts", "declaration.d.ts"]
 }

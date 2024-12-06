@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Book from '../../components/Book';
 import { books as initialBooks } from '../../utils';
-// @ts-ignore
 import styles from './Home.module.scss';
 
 const Home = () => {
